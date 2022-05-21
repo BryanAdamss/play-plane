@@ -1,0 +1,1130 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@vitejs/plugin-vue': ^2.3.3
+  pixi.js: ^6.3.2
+  typescript: ^4.5.4
+  vite: ^2.9.9
+  vitest: ^0.12.7
+  vue: ^3.2.25
+  vue-tsc: ^0.34.7
+
+dependencies:
+  pixi.js: 6.3.2
+  vue: 3.2.35
+
+devDependencies:
+  '@vitejs/plugin-vue': 2.3.3_vite@2.9.9+vue@3.2.35
+  typescript: 4.6.4
+  vite: 2.9.9
+  vitest: 0.12.7
+  vue-tsc: 0.34.15_typescript@4.6.4
+
+packages:
+
+  /@babel/parser/7.18.0:
+    resolution: {integrity: sha1-EKjU5la8ARKNKZp4eqAGzhqR4RI=}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+
+  /@pixi/accessibility/6.3.2_db7bcbf09922a6df5bc80b2003571857:
+    resolution: {integrity: sha1-sF3+EvS7j981TPs+wJLLPghpG28=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/accessibility/-/accessibility-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/core': 6.3.2
+      '@pixi/display': 6.3.2
+      '@pixi/utils': 6.3.2
+    dependencies:
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/display': 6.3.2_e7c4c8a08e39c75fae6fa3e48b20e93d
+      '@pixi/utils': 6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca
+    dev: false
+
+  /@pixi/app/6.3.2_a69016c65fb53ebef8d047ab5aad6bd7:
+    resolution: {integrity: sha1-04rigqcwUDffFzNH7tBEjLApano=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/app/-/app-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/core': 6.3.2
+      '@pixi/display': 6.3.2
+    dependencies:
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/display': 6.3.2_e7c4c8a08e39c75fae6fa3e48b20e93d
+    dev: false
+
+  /@pixi/compressed-textures/6.3.2_c00c24b49efde91a089ec64c96e5c898:
+    resolution: {integrity: sha1-d3+GFG8UHbCEkDLEKQJDdxGcD7w=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/compressed-textures/-/compressed-textures-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2
+      '@pixi/loaders': 6.3.2
+      '@pixi/utils': 6.3.2
+    dependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/loaders': 6.3.2_0a0bbc1ce054ff229190dca69e0494dd
+      '@pixi/utils': 6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca
+    dev: false
+
+  /@pixi/constants/6.3.2:
+    resolution: {integrity: sha1-FOC82nHjzCSKyOZDbdYbKaG+zXY=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/constants/-/constants-6.3.2.tgz}
+    dev: false
+
+  /@pixi/core/6.3.2_4257bfb9773fb237c7e267d891c82adf:
+    resolution: {integrity: sha1-UVjSxxSD5RWYQHNtoCUZx9jZM3Y=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/core/-/core-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/math': 6.3.2
+      '@pixi/runner': 6.3.2
+      '@pixi/settings': 6.3.2
+      '@pixi/ticker': 6.3.2
+      '@pixi/utils': 6.3.2
+    dependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/math': 6.3.2
+      '@pixi/runner': 6.3.2
+      '@pixi/settings': 6.3.2
+      '@pixi/ticker': 6.3.2_@pixi+settings@6.3.2
+      '@pixi/utils': 6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca
+      '@types/offscreencanvas': 2019.6.4
+    dev: false
+
+  /@pixi/display/6.3.2_e7c4c8a08e39c75fae6fa3e48b20e93d:
+    resolution: {integrity: sha1-Z1QRVns/ksaQZJjL/qRKPUJzI+s=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/display/-/display-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/math': 6.3.2
+      '@pixi/settings': 6.3.2
+      '@pixi/utils': 6.3.2
+    dependencies:
+      '@pixi/math': 6.3.2
+      '@pixi/settings': 6.3.2
+      '@pixi/utils': 6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca
+    dev: false
+
+  /@pixi/extract/6.3.2_a5e0e2d02b8d7186ddb66e8a0d7ce194:
+    resolution: {integrity: sha1-hlhSKJGDqAsBu2uLdNPUoV1gEmE=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/extract/-/extract-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/core': 6.3.2
+      '@pixi/math': 6.3.2
+      '@pixi/utils': 6.3.2
+    dependencies:
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/math': 6.3.2
+      '@pixi/utils': 6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca
+    dev: false
+
+  /@pixi/filter-alpha/6.3.2_@pixi+core@6.3.2:
+    resolution: {integrity: sha1-T3KOW10529+UftIAr89xcJ/MGe4=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/filter-alpha/-/filter-alpha-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/core': 6.3.2
+    dependencies:
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+    dev: false
+
+  /@pixi/filter-blur/6.3.2_4264d6fdde98fc45cddd22e0ac0b1c96:
+    resolution: {integrity: sha1-vrnAPxg0qkxbhpFB5MoA1QxWV3s=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/filter-blur/-/filter-blur-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/core': 6.3.2
+      '@pixi/settings': 6.3.2
+    dependencies:
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/settings': 6.3.2
+    dev: false
+
+  /@pixi/filter-color-matrix/6.3.2_@pixi+core@6.3.2:
+    resolution: {integrity: sha1-vyi9OWS1Fp/3wVk0wkCybpYuNtA=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/filter-color-matrix/-/filter-color-matrix-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/core': 6.3.2
+    dependencies:
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+    dev: false
+
+  /@pixi/filter-displacement/6.3.2_0a7e8013810db74228122183c7f764b4:
+    resolution: {integrity: sha1-SF/sJqt5ndYAODmqkYOaTyhGO1I=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/filter-displacement/-/filter-displacement-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/core': 6.3.2
+      '@pixi/math': 6.3.2
+    dependencies:
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/math': 6.3.2
+    dev: false
+
+  /@pixi/filter-fxaa/6.3.2_@pixi+core@6.3.2:
+    resolution: {integrity: sha1-/sp2tQdSD8sHuaHBGLz8D4dtWSg=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/filter-fxaa/-/filter-fxaa-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/core': 6.3.2
+    dependencies:
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+    dev: false
+
+  /@pixi/filter-noise/6.3.2_@pixi+core@6.3.2:
+    resolution: {integrity: sha1-1eaEOjvyBoDB4o2aWMoUmm7b958=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/filter-noise/-/filter-noise-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/core': 6.3.2
+    dependencies:
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+    dev: false
+
+  /@pixi/graphics/6.3.2_91c3e6a98984c641b7f084236981bd4d:
+    resolution: {integrity: sha1-nFE2AMjsaHawUNpOsngbhDulGcg=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/graphics/-/graphics-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2
+      '@pixi/display': 6.3.2
+      '@pixi/math': 6.3.2
+      '@pixi/sprite': 6.3.2
+      '@pixi/utils': 6.3.2
+    dependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/display': 6.3.2_e7c4c8a08e39c75fae6fa3e48b20e93d
+      '@pixi/math': 6.3.2
+      '@pixi/sprite': 6.3.2_a9b132a74277d3933ca0f55b2600b29d
+      '@pixi/utils': 6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca
+    dev: false
+
+  /@pixi/interaction/6.3.2_447a8696a7541776773743f84ebbd865:
+    resolution: {integrity: sha1-3VsU/JRqzS2Vh/1FjPFP8kHU9eY=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/interaction/-/interaction-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/core': 6.3.2
+      '@pixi/display': 6.3.2
+      '@pixi/math': 6.3.2
+      '@pixi/ticker': 6.3.2
+      '@pixi/utils': 6.3.2
+    dependencies:
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/display': 6.3.2_e7c4c8a08e39c75fae6fa3e48b20e93d
+      '@pixi/math': 6.3.2
+      '@pixi/ticker': 6.3.2_@pixi+settings@6.3.2
+      '@pixi/utils': 6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca
+    dev: false
+
+  /@pixi/loaders/6.3.2_0a0bbc1ce054ff229190dca69e0494dd:
+    resolution: {integrity: sha1-Awk8ChL2GQyjwP+B8Q2wQCEKr88=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/loaders/-/loaders-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2
+      '@pixi/utils': 6.3.2
+    dependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/utils': 6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca
+    dev: false
+
+  /@pixi/math/6.3.2:
+    resolution: {integrity: sha1-49t1AOQ7wye2DnogVur1PN79o+Q=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/math/-/math-6.3.2.tgz}
+    dev: false
+
+  /@pixi/mesh-extras/6.3.2_47b73efbf373190e82ef014a2149b8bf:
+    resolution: {integrity: sha1-EteXtRRhjmasH6GDm+abVXV6Uac=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/mesh-extras/-/mesh-extras-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2
+      '@pixi/math': 6.3.2
+      '@pixi/mesh': 6.3.2
+      '@pixi/utils': 6.3.2
+    dependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/math': 6.3.2
+      '@pixi/mesh': 6.3.2_a9b132a74277d3933ca0f55b2600b29d
+      '@pixi/utils': 6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca
+    dev: false
+
+  /@pixi/mesh/6.3.2_a9b132a74277d3933ca0f55b2600b29d:
+    resolution: {integrity: sha1-e+SioeUuAOLEXINgJbmenEGoNsk=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/mesh/-/mesh-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2
+      '@pixi/display': 6.3.2
+      '@pixi/math': 6.3.2
+      '@pixi/settings': 6.3.2
+      '@pixi/utils': 6.3.2
+    dependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/display': 6.3.2_e7c4c8a08e39c75fae6fa3e48b20e93d
+      '@pixi/math': 6.3.2
+      '@pixi/settings': 6.3.2
+      '@pixi/utils': 6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca
+    dev: false
+
+  /@pixi/mixin-cache-as-bitmap/6.3.2_ef2da6c9cbdb9c11512f0f717461a877:
+    resolution: {integrity: sha1-ymAVbFEre3HuWFtAy8CqWtJ7Kwg=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/mixin-cache-as-bitmap/-/mixin-cache-as-bitmap-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/core': 6.3.2
+      '@pixi/display': 6.3.2
+      '@pixi/math': 6.3.2
+      '@pixi/settings': 6.3.2
+      '@pixi/sprite': 6.3.2
+      '@pixi/utils': 6.3.2
+    dependencies:
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/display': 6.3.2_e7c4c8a08e39c75fae6fa3e48b20e93d
+      '@pixi/math': 6.3.2
+      '@pixi/settings': 6.3.2
+      '@pixi/sprite': 6.3.2_a9b132a74277d3933ca0f55b2600b29d
+      '@pixi/utils': 6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca
+    dev: false
+
+  /@pixi/mixin-get-child-by-name/6.3.2_@pixi+display@6.3.2:
+    resolution: {integrity: sha1-eqXmLIXwpjsDeasxGk7h4h9dSos=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/mixin-get-child-by-name/-/mixin-get-child-by-name-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/display': 6.3.2
+    dependencies:
+      '@pixi/display': 6.3.2_e7c4c8a08e39c75fae6fa3e48b20e93d
+    dev: false
+
+  /@pixi/mixin-get-global-position/6.3.2_0ee9dbe38ff361ef9bd906e815391118:
+    resolution: {integrity: sha1-O6DZZQ2k7Gwex4Gn6FjBW/jBjL0=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/mixin-get-global-position/-/mixin-get-global-position-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/display': 6.3.2
+      '@pixi/math': 6.3.2
+    dependencies:
+      '@pixi/display': 6.3.2_e7c4c8a08e39c75fae6fa3e48b20e93d
+      '@pixi/math': 6.3.2
+    dev: false
+
+  /@pixi/particle-container/6.3.2_08d2fb50a3494898be2cd0ac91db5428:
+    resolution: {integrity: sha1-544d9Zn5E8Z5bMZJu/5mcHgYUNk=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/particle-container/-/particle-container-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2
+      '@pixi/display': 6.3.2
+      '@pixi/math': 6.3.2
+      '@pixi/utils': 6.3.2
+    dependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/display': 6.3.2_e7c4c8a08e39c75fae6fa3e48b20e93d
+      '@pixi/math': 6.3.2
+      '@pixi/utils': 6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca
+    dev: false
+
+  /@pixi/polyfill/6.3.2:
+    resolution: {integrity: sha1-78HjX95wUArhNGlyKps9g5zaL/w=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/polyfill/-/polyfill-6.3.2.tgz}
+    dependencies:
+      object-assign: 4.1.1
+      promise-polyfill: 8.2.3
+    dev: false
+
+  /@pixi/prepare/6.3.2_7b8060906a5d8bc45d317bac529187d6:
+    resolution: {integrity: sha1-6FSVm/EmHlSC9Xb19cCu9NuR63s=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/prepare/-/prepare-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/core': 6.3.2
+      '@pixi/display': 6.3.2
+      '@pixi/graphics': 6.3.2
+      '@pixi/settings': 6.3.2
+      '@pixi/text': 6.3.2
+      '@pixi/ticker': 6.3.2
+    dependencies:
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/display': 6.3.2_e7c4c8a08e39c75fae6fa3e48b20e93d
+      '@pixi/graphics': 6.3.2_91c3e6a98984c641b7f084236981bd4d
+      '@pixi/settings': 6.3.2
+      '@pixi/text': 6.3.2_5925f19be581b802712b1aaae0d5afa7
+      '@pixi/ticker': 6.3.2_@pixi+settings@6.3.2
+    dev: false
+
+  /@pixi/runner/6.3.2:
+    resolution: {integrity: sha1-Djm9gNIVYYhAX4zCT5updnEMgzo=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/runner/-/runner-6.3.2.tgz}
+    dev: false
+
+  /@pixi/settings/6.3.2:
+    resolution: {integrity: sha1-li/giOdF9T9AUZKOBrgCqEMYBmQ=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/settings/-/settings-6.3.2.tgz}
+    dependencies:
+      ismobilejs: 1.1.1
+    dev: false
+
+  /@pixi/sprite-animated/6.3.2_aa4c3e73f713f81856b07b197ed3c5bc:
+    resolution: {integrity: sha1-q5bPmRq/wZAE44NWOL7sa0BM4OY=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/sprite-animated/-/sprite-animated-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/core': 6.3.2
+      '@pixi/sprite': 6.3.2
+      '@pixi/ticker': 6.3.2
+    dependencies:
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/sprite': 6.3.2_a9b132a74277d3933ca0f55b2600b29d
+      '@pixi/ticker': 6.3.2_@pixi+settings@6.3.2
+    dev: false
+
+  /@pixi/sprite-tiling/6.3.2_91c3e6a98984c641b7f084236981bd4d:
+    resolution: {integrity: sha1-8kKR54+C+9uCLkTKwJZUG2+xS0I=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/sprite-tiling/-/sprite-tiling-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2
+      '@pixi/display': 6.3.2
+      '@pixi/math': 6.3.2
+      '@pixi/sprite': 6.3.2
+      '@pixi/utils': 6.3.2
+    dependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/display': 6.3.2_e7c4c8a08e39c75fae6fa3e48b20e93d
+      '@pixi/math': 6.3.2
+      '@pixi/sprite': 6.3.2_a9b132a74277d3933ca0f55b2600b29d
+      '@pixi/utils': 6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca
+    dev: false
+
+  /@pixi/sprite/6.3.2_a9b132a74277d3933ca0f55b2600b29d:
+    resolution: {integrity: sha1-1oliag8danuv9KI9LRPddKIJtC8=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/sprite/-/sprite-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2
+      '@pixi/display': 6.3.2
+      '@pixi/math': 6.3.2
+      '@pixi/settings': 6.3.2
+      '@pixi/utils': 6.3.2
+    dependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/display': 6.3.2_e7c4c8a08e39c75fae6fa3e48b20e93d
+      '@pixi/math': 6.3.2
+      '@pixi/settings': 6.3.2
+      '@pixi/utils': 6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca
+    dev: false
+
+  /@pixi/spritesheet/6.3.2_8d031731e4641eaf695aec173f39f3f5:
+    resolution: {integrity: sha1-mk2Kay9IIDbcYNt0FnKod4WjXX8=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/spritesheet/-/spritesheet-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/core': 6.3.2
+      '@pixi/loaders': 6.3.2
+      '@pixi/math': 6.3.2
+      '@pixi/utils': 6.3.2
+    dependencies:
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/loaders': 6.3.2_0a0bbc1ce054ff229190dca69e0494dd
+      '@pixi/math': 6.3.2
+      '@pixi/utils': 6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca
+    dev: false
+
+  /@pixi/text-bitmap/6.3.2_73541f84af5a3f47a48303c3389bd8fd:
+    resolution: {integrity: sha1-I0Mgq5fBPyXT0nLkxSzXtjR8pgI=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/text-bitmap/-/text-bitmap-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2
+      '@pixi/display': 6.3.2
+      '@pixi/loaders': 6.3.2
+      '@pixi/math': 6.3.2
+      '@pixi/mesh': 6.3.2
+      '@pixi/settings': 6.3.2
+      '@pixi/text': 6.3.2
+      '@pixi/utils': 6.3.2
+    dependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/display': 6.3.2_e7c4c8a08e39c75fae6fa3e48b20e93d
+      '@pixi/loaders': 6.3.2_0a0bbc1ce054ff229190dca69e0494dd
+      '@pixi/math': 6.3.2
+      '@pixi/mesh': 6.3.2_a9b132a74277d3933ca0f55b2600b29d
+      '@pixi/settings': 6.3.2
+      '@pixi/text': 6.3.2_5925f19be581b802712b1aaae0d5afa7
+      '@pixi/utils': 6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca
+    dev: false
+
+  /@pixi/text/6.3.2_5925f19be581b802712b1aaae0d5afa7:
+    resolution: {integrity: sha1-4OsO7aQ1T+iMPkZqALgzXk5VabE=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/text/-/text-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/core': 6.3.2
+      '@pixi/math': 6.3.2
+      '@pixi/settings': 6.3.2
+      '@pixi/sprite': 6.3.2
+      '@pixi/utils': 6.3.2
+    dependencies:
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/math': 6.3.2
+      '@pixi/settings': 6.3.2
+      '@pixi/sprite': 6.3.2_a9b132a74277d3933ca0f55b2600b29d
+      '@pixi/utils': 6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca
+    dev: false
+
+  /@pixi/ticker/6.3.2_@pixi+settings@6.3.2:
+    resolution: {integrity: sha1-thbZE/G9JqxHRELtGXnVBpft4Ys=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/ticker/-/ticker-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/settings': 6.3.2
+    dependencies:
+      '@pixi/settings': 6.3.2
+    dev: false
+
+  /@pixi/utils/6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca:
+    resolution: {integrity: sha1-q+FkZto9EaqAl2Of7R2FqiN8yjc=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@pixi/utils/-/utils-6.3.2.tgz}
+    peerDependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/settings': 6.3.2
+    dependencies:
+      '@pixi/constants': 6.3.2
+      '@pixi/settings': 6.3.2
+      '@types/earcut': 2.1.1
+      earcut: 2.2.3
+      eventemitter3: 3.1.2
+      url: 0.11.0
+    dev: false
+
+  /@types/chai-subset/1.3.3:
+    resolution: {integrity: sha1-l4k4FOkqvSxTTeQiyzd+DgvarJQ=}
+    dependencies:
+      '@types/chai': 4.3.1
+    dev: true
+
+  /@types/chai/4.3.1:
+    resolution: {integrity: sha1-4sbnPgveslIdAHVtCZIY6fXZCgQ=}
+    dev: true
+
+  /@types/earcut/2.1.1:
+    resolution: {integrity: sha1-VzoK9gnxcAXHUfb0/+xJz+NY6lE=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@types/earcut/-/earcut-2.1.1.tgz}
+    dev: false
+
+  /@types/offscreencanvas/2019.6.4:
+    resolution: {integrity: sha1-ZPbRILU5JQKCmcdE/N0y0s1SWWM=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/@types/offscreencanvas/-/offscreencanvas-2019.6.4.tgz}
+    dev: false
+
+  /@vitejs/plugin-vue/2.3.3_vite@2.9.9+vue@3.2.35:
+    resolution: {integrity: sha1-+/gMwDm4KsIaGssPBHjej2H79gA=}
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      vite: ^2.5.10
+      vue: ^3.2.25
+    dependencies:
+      vite: 2.9.9
+      vue: 3.2.35
+    dev: true
+
+  /@volar/code-gen/0.34.15:
+    resolution: {integrity: sha1-/UH3/gcCs/A/a6G9nn7HtRq08oo=}
+    dependencies:
+      '@volar/source-map': 0.34.15
+    dev: true
+
+  /@volar/source-map/0.34.15:
+    resolution: {integrity: sha1-963HCIfm9NyjYhrGpU/alPMMlD0=}
+    dev: true
+
+  /@volar/vue-code-gen/0.34.15:
+    resolution: {integrity: sha1-0gwI1r3wIEH6EkQmpFURY/yIlIg=}
+    dependencies:
+      '@volar/code-gen': 0.34.15
+      '@volar/source-map': 0.34.15
+      '@vue/compiler-core': 3.2.35
+      '@vue/compiler-dom': 3.2.35
+      '@vue/shared': 3.2.35
+    dev: true
+
+  /@volar/vue-typescript/0.34.15:
+    resolution: {integrity: sha1-JESOB96cc28BVK+08pSmKSX5lwQ=}
+    dependencies:
+      '@volar/code-gen': 0.34.15
+      '@volar/source-map': 0.34.15
+      '@volar/vue-code-gen': 0.34.15
+      '@vue/compiler-sfc': 3.2.35
+      '@vue/reactivity': 3.2.35
+    dev: true
+
+  /@vue/compiler-core/3.2.35:
+    resolution: {integrity: sha1-8vwBvSXYWad7DZ713yj2V8GXkHA=}
+    dependencies:
+      '@babel/parser': 7.18.0
+      '@vue/shared': 3.2.35
+      estree-walker: 2.0.2
+      source-map: 0.6.1
+
+  /@vue/compiler-dom/3.2.35:
+    resolution: {integrity: sha1-EbvMoNSfmZHWTdj7+KCkRTyqVxw=}
+    dependencies:
+      '@vue/compiler-core': 3.2.35
+      '@vue/shared': 3.2.35
+
+  /@vue/compiler-sfc/3.2.35:
+    resolution: {integrity: sha1-HegPhYszVIvCLRZhJiNENZN+vgw=}
+    dependencies:
+      '@babel/parser': 7.18.0
+      '@vue/compiler-core': 3.2.35
+      '@vue/compiler-dom': 3.2.35
+      '@vue/compiler-ssr': 3.2.35
+      '@vue/reactivity-transform': 3.2.35
+      '@vue/shared': 3.2.35
+      estree-walker: 2.0.2
+      magic-string: 0.25.9
+      postcss: 8.4.14
+      source-map: 0.6.1
+
+  /@vue/compiler-ssr/3.2.35:
+    resolution: {integrity: sha1-jXcm+VREwC8zAQg+LGyBR4D7ewA=}
+    dependencies:
+      '@vue/compiler-dom': 3.2.35
+      '@vue/shared': 3.2.35
+
+  /@vue/reactivity-transform/3.2.35:
+    resolution: {integrity: sha1-Kbo0Sw7J7H7nXKbBpvNJWVyhUNg=}
+    dependencies:
+      '@babel/parser': 7.18.0
+      '@vue/compiler-core': 3.2.35
+      '@vue/shared': 3.2.35
+      estree-walker: 2.0.2
+      magic-string: 0.25.9
+
+  /@vue/reactivity/3.2.35:
+    resolution: {integrity: sha1-xmryifO+2mq6Y8Jk25xqzWB9HHM=}
+    dependencies:
+      '@vue/shared': 3.2.35
+
+  /@vue/runtime-core/3.2.35:
+    resolution: {integrity: sha1-qHvVIU/zH53GVC9cSY1PNUPG6o8=}
+    dependencies:
+      '@vue/reactivity': 3.2.35
+      '@vue/shared': 3.2.35
+    dev: false
+
+  /@vue/runtime-dom/3.2.35:
+    resolution: {integrity: sha1-AEv2EJNT51zyLrEbryRyiMIW73s=}
+    dependencies:
+      '@vue/runtime-core': 3.2.35
+      '@vue/shared': 3.2.35
+      csstype: 2.6.20
+    dev: false
+
+  /@vue/server-renderer/3.2.35_vue@3.2.35:
+    resolution: {integrity: sha1-efueIxXsYZa18vOF70rjHPVZmi8=}
+    peerDependencies:
+      vue: 3.2.35
+    dependencies:
+      '@vue/compiler-ssr': 3.2.35
+      '@vue/shared': 3.2.35
+      vue: 3.2.35
+    dev: false
+
+  /@vue/shared/3.2.35:
+    resolution: {integrity: sha1-+2BTD6AJ3CFHM4anY57tgzh3yw8=}
+
+  /assertion-error/1.1.0:
+    resolution: {integrity: sha1-5gtrDo8wG9l+U3UhW9pAbIURjAs=, tarball: assertion-error/assertion-error-1.1.0.tgz}
+    dev: true
+
+  /chai/4.3.6:
+    resolution: {integrity: sha1-/+S6LZ+p1mgMwLNwra5wnskBHpw=}
+    engines: {node: '>=4'}
+    dependencies:
+      assertion-error: 1.1.0
+      check-error: 1.0.2
+      deep-eql: 3.0.1
+      get-func-name: 2.0.0
+      loupe: 2.3.4
+      pathval: 1.1.1
+      type-detect: 4.0.8
+    dev: true
+
+  /check-error/1.0.2:
+    resolution: {integrity: sha1-V00xLt2Iu13YkS6Sht1sCu1KrII=, tarball: check-error/check-error-1.0.2.tgz}
+    dev: true
+
+  /csstype/2.6.20:
+    resolution: {integrity: sha1-kinGXqCyYM9NPZl8sGKI42qNbdo=}
+    dev: false
+
+  /debug/4.3.4:
+    resolution: {integrity: sha1-Exn2V5NX8jONMzfSzdSRS7XcyGU=}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.2
+    dev: true
+
+  /deep-eql/3.0.1:
+    resolution: {integrity: sha1-38lARACtHI/gI+faHfHBR8S0RN8=, tarball: deep-eql/deep-eql-3.0.1.tgz}
+    engines: {node: '>=0.12'}
+    dependencies:
+      type-detect: 4.0.8
+    dev: true
+
+  /earcut/2.2.3:
+    resolution: {integrity: sha1-1EztL/WhiFlWjjJ92cfUaxb1XPQ=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/earcut/-/earcut-2.2.3.tgz}
+    dev: false
+
+  /esbuild-android-64/0.14.39:
+    resolution: {integrity: sha1-CfEqNy7tl0P9d/9tiJrBT3s0DCE=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-android-64/-/esbuild-android-64-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-android-arm64/0.14.39:
+    resolution: {integrity: sha1-9gjQDqA/4m87GrkqMPmSIDkPMHE=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-android-arm64/-/esbuild-android-arm64-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-darwin-64/0.14.39:
+    resolution: {integrity: sha1-MVKNqnW0yTF3Ie3jRBlRY/rj4EE=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-darwin-64/-/esbuild-darwin-64-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-darwin-arm64/0.14.39:
+    resolution: {integrity: sha1-JH93DYbZCiFfoZTyT5DjCgvZckU=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-darwin-arm64/-/esbuild-darwin-arm64-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-freebsd-64/0.14.39:
+    resolution: {integrity: sha1-R5QU0pSQUFXrOW6+RV7UIhMoTuA=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-freebsd-64/-/esbuild-freebsd-64-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-freebsd-arm64/0.14.39:
+    resolution: {integrity: sha1-zt6xA1fIhTNhWSGudnpn3IcKR0w=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-freebsd-arm64/-/esbuild-freebsd-arm64-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-32/0.14.39:
+    resolution: {integrity: sha1-2fAIxDItdx85WPWcHu5aBc35JIU=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-linux-32/-/esbuild-linux-32-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-64/0.14.39:
+    resolution: {integrity: sha1-uljX9mhYkTrrGrXGveG72CRzF5U=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-linux-64/-/esbuild-linux-64-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-arm/0.14.39:
+    resolution: {integrity: sha1-Totd6qerYNDSj6sTEkTvgrQGhPQ=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-linux-arm/-/esbuild-linux-arm-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-arm64/0.14.39:
+    resolution: {integrity: sha1-cIeFowBycCtbHBa2XPnCXFEgJSk=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-linux-arm64/-/esbuild-linux-arm64-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-mips64le/0.14.39:
+    resolution: {integrity: sha1-bzvzAj9xEITloegZBIfSAg858Pc=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-linux-mips64le/-/esbuild-linux-mips64le-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [mips64el]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-ppc64le/0.14.39:
+    resolution: {integrity: sha1-kA5xik6j9q7d6EJIKO7v3UtI1Lk=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-linux-ppc64le/-/esbuild-linux-ppc64le-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [ppc64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-riscv64/0.14.39:
+    resolution: {integrity: sha1-3L/2Ivo3BHp10v96HY0pSdgCd+Q=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-linux-riscv64/-/esbuild-linux-riscv64-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [riscv64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-s390x/0.14.39:
+    resolution: {integrity: sha1-P3JaeUW0GUBsmdk3RLKFUlYdzf0=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-linux-s390x/-/esbuild-linux-s390x-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [s390x]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-netbsd-64/0.14.39:
+    resolution: {integrity: sha1-4Q5AtqdleYuQ1OuFkBzIXIt/+F4=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-netbsd-64/-/esbuild-netbsd-64-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [netbsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-openbsd-64/0.14.39:
+    resolution: {integrity: sha1-k17BQ/dc4QvZzbHIf+4AKH6w7bw=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-openbsd-64/-/esbuild-openbsd-64-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [openbsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-sunos-64/0.14.39:
+    resolution: {integrity: sha1-DnqoKwIqLm1VsGRnOLJYLC1yw8A=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-sunos-64/-/esbuild-sunos-64-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [sunos]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-windows-32/0.14.39:
+    resolution: {integrity: sha1-PxU4JB8xtThUX0tYQbJIysJg+jU=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-windows-32/-/esbuild-windows-32-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-windows-64/0.14.39:
+    resolution: {integrity: sha1-sQDFn5bTwtoueW5C/uSQDXVdPgM=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-windows-64/-/esbuild-windows-64-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-windows-arm64/0.14.39:
+    resolution: {integrity: sha1-ACaFF+ZlszyJd41h8UTkJWs59jE=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/esbuild-windows-arm64/-/esbuild-windows-arm64-0.14.39.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild/0.14.39:
+    resolution: {integrity: sha1-ySayJZ/m9tOpT1KPtC4QPFptkJo=}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      esbuild-android-64: 0.14.39
+      esbuild-android-arm64: 0.14.39
+      esbuild-darwin-64: 0.14.39
+      esbuild-darwin-arm64: 0.14.39
+      esbuild-freebsd-64: 0.14.39
+      esbuild-freebsd-arm64: 0.14.39
+      esbuild-linux-32: 0.14.39
+      esbuild-linux-64: 0.14.39
+      esbuild-linux-arm: 0.14.39
+      esbuild-linux-arm64: 0.14.39
+      esbuild-linux-mips64le: 0.14.39
+      esbuild-linux-ppc64le: 0.14.39
+      esbuild-linux-riscv64: 0.14.39
+      esbuild-linux-s390x: 0.14.39
+      esbuild-netbsd-64: 0.14.39
+      esbuild-openbsd-64: 0.14.39
+      esbuild-sunos-64: 0.14.39
+      esbuild-windows-32: 0.14.39
+      esbuild-windows-64: 0.14.39
+      esbuild-windows-arm64: 0.14.39
+    dev: true
+
+  /estree-walker/2.0.2:
+    resolution: {integrity: sha1-UvAQF4wqTBF6d1fP6UKtt9LaTKw=, tarball: estree-walker/estree-walker-2.0.2.tgz}
+
+  /eventemitter3/3.1.2:
+    resolution: {integrity: sha1-LT1I+cNGaY/Og6hdfWZOmFNd9uc=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/eventemitter3/eventemitter3-3.1.2.tgz}
+    dev: false
+
+  /fsevents/2.3.2:
+    resolution: {integrity: sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/fsevents/fsevents-2.3.2.tgz}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /function-bind/1.1.1:
+    resolution: {integrity: sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=, tarball: function-bind/function-bind-1.1.1.tgz}
+    dev: true
+
+  /get-func-name/2.0.0:
+    resolution: {integrity: sha1-6td0q+5y4gQJQzoGY2YCPdaIekE=, tarball: get-func-name/get-func-name-2.0.0.tgz}
+    dev: true
+
+  /has/1.0.3:
+    resolution: {integrity: sha1-ci18v8H2qoJB8W3YFOAR4fQeh5Y=, tarball: has/has-1.0.3.tgz}
+    engines: {node: '>= 0.4.0'}
+    dependencies:
+      function-bind: 1.1.1
+    dev: true
+
+  /is-core-module/2.9.0:
+    resolution: {integrity: sha1-4cNEKc1Rxt2eCeB5njluJ7GanGk=}
+    dependencies:
+      has: 1.0.3
+    dev: true
+
+  /ismobilejs/1.1.1:
+    resolution: {integrity: sha1-xWygro5Sskyg8iul7zIVot27qg4=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/ismobilejs/ismobilejs-1.1.1.tgz}
+    dev: false
+
+  /local-pkg/0.4.1:
+    resolution: {integrity: sha1-57DXqgucSYoREKWsWwC6Zu84z/8=}
+    engines: {node: '>=14'}
+    dev: true
+
+  /loupe/2.3.4:
+    resolution: {integrity: sha1-fgub/8dvFI+b52nLEyHT3PPLJfM=}
+    dependencies:
+      get-func-name: 2.0.0
+    dev: true
+
+  /magic-string/0.25.9:
+    resolution: {integrity: sha1-3n+fr5HvihyR0CwuUxTIJ3283Rw=}
+    dependencies:
+      sourcemap-codec: 1.4.8
+
+  /ms/2.1.2:
+    resolution: {integrity: sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk=, tarball: https://artifacts.iflytek.com/api/npm/npm-repo/ms/ms-2.1.2.tgz}
+    dev: true
+
+  /nanoid/3.3.4:
+    resolution: {integrity: sha1-cwtn480J4t6s8DwCfIHJ2dvF6Ks=}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+
+  /object-assign/4.1.1:
+    resolution: {integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/object-assign/object-assign-4.1.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /path-parse/1.0.7:
+    resolution: {integrity: sha1-+8EUtgykKzDZ2vWFjkvWi77bZzU=, tarball: path-parse/path-parse-1.0.7.tgz}
+    dev: true
+
+  /pathval/1.1.1:
+    resolution: {integrity: sha1-hTTnenfOesWiUS6iHg/bj89sPY0=}
+    dev: true
+
+  /picocolors/1.0.0:
+    resolution: {integrity: sha1-y1vcdP8/UYkiNur3nWi8RFZKuBw=}
+
+  /pixi.js/6.3.2:
+    resolution: {integrity: sha1-V7pVNQDjeEPcJPN/DktPRnio44Y=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/pixi.js/-/pixi.js-6.3.2.tgz}
+    dependencies:
+      '@pixi/accessibility': 6.3.2_db7bcbf09922a6df5bc80b2003571857
+      '@pixi/app': 6.3.2_a69016c65fb53ebef8d047ab5aad6bd7
+      '@pixi/compressed-textures': 6.3.2_c00c24b49efde91a089ec64c96e5c898
+      '@pixi/constants': 6.3.2
+      '@pixi/core': 6.3.2_4257bfb9773fb237c7e267d891c82adf
+      '@pixi/display': 6.3.2_e7c4c8a08e39c75fae6fa3e48b20e93d
+      '@pixi/extract': 6.3.2_a5e0e2d02b8d7186ddb66e8a0d7ce194
+      '@pixi/filter-alpha': 6.3.2_@pixi+core@6.3.2
+      '@pixi/filter-blur': 6.3.2_4264d6fdde98fc45cddd22e0ac0b1c96
+      '@pixi/filter-color-matrix': 6.3.2_@pixi+core@6.3.2
+      '@pixi/filter-displacement': 6.3.2_0a7e8013810db74228122183c7f764b4
+      '@pixi/filter-fxaa': 6.3.2_@pixi+core@6.3.2
+      '@pixi/filter-noise': 6.3.2_@pixi+core@6.3.2
+      '@pixi/graphics': 6.3.2_91c3e6a98984c641b7f084236981bd4d
+      '@pixi/interaction': 6.3.2_447a8696a7541776773743f84ebbd865
+      '@pixi/loaders': 6.3.2_0a0bbc1ce054ff229190dca69e0494dd
+      '@pixi/math': 6.3.2
+      '@pixi/mesh': 6.3.2_a9b132a74277d3933ca0f55b2600b29d
+      '@pixi/mesh-extras': 6.3.2_47b73efbf373190e82ef014a2149b8bf
+      '@pixi/mixin-cache-as-bitmap': 6.3.2_ef2da6c9cbdb9c11512f0f717461a877
+      '@pixi/mixin-get-child-by-name': 6.3.2_@pixi+display@6.3.2
+      '@pixi/mixin-get-global-position': 6.3.2_0ee9dbe38ff361ef9bd906e815391118
+      '@pixi/particle-container': 6.3.2_08d2fb50a3494898be2cd0ac91db5428
+      '@pixi/polyfill': 6.3.2
+      '@pixi/prepare': 6.3.2_7b8060906a5d8bc45d317bac529187d6
+      '@pixi/runner': 6.3.2
+      '@pixi/settings': 6.3.2
+      '@pixi/sprite': 6.3.2_a9b132a74277d3933ca0f55b2600b29d
+      '@pixi/sprite-animated': 6.3.2_aa4c3e73f713f81856b07b197ed3c5bc
+      '@pixi/sprite-tiling': 6.3.2_91c3e6a98984c641b7f084236981bd4d
+      '@pixi/spritesheet': 6.3.2_8d031731e4641eaf695aec173f39f3f5
+      '@pixi/text': 6.3.2_5925f19be581b802712b1aaae0d5afa7
+      '@pixi/text-bitmap': 6.3.2_73541f84af5a3f47a48303c3389bd8fd
+      '@pixi/ticker': 6.3.2_@pixi+settings@6.3.2
+      '@pixi/utils': 6.3.2_cb3fd473ba582823f2dfd3d53c57a4ca
+    dev: false
+
+  /postcss/8.4.14:
+    resolution: {integrity: sha1-7pJ01WIrSFjBAHp0125C5W/SHK8=}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.4
+      picocolors: 1.0.0
+      source-map-js: 1.0.2
+
+  /promise-polyfill/8.2.3:
+    resolution: {integrity: sha1-Ltx+S4Gv94HIig1Xfl/p2oIhB8Y=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/promise-polyfill/-/promise-polyfill-8.2.3.tgz}
+    dev: false
+
+  /punycode/1.3.2:
+    resolution: {integrity: sha1-llOgNvt8HuQjQvIyXM7v6jkmxI0=, tarball: https://artifacts.iflytek.com:443/api/npm/npm-repo/punycode/punycode-1.3.2.tgz}
+    dev: false
+
+  /querystring/0.2.0:
+    resolution: {integrity: sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=, tarball: https://artifacts.iflytek.com:443/api/npm/npm-repo/querystring/querystring-0.2.0.tgz}
+    engines: {node: '>=0.4.x'}
+    dev: false
+
+  /resolve/1.22.0:
+    resolution: {integrity: sha1-XguMZ8Fd9XqJvbq+YDoALyFzEZg=}
+    hasBin: true
+    dependencies:
+      is-core-module: 2.9.0
+      path-parse: 1.0.7
+      supports-preserve-symlinks-flag: 1.0.0
+    dev: true
+
+  /rollup/2.74.1:
+    resolution: {integrity: sha1-T7oP8cMSzE7oJpGxVO7mmg0Bkp8=}
+    engines: {node: '>=10.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /source-map-js/1.0.2:
+    resolution: {integrity: sha1-rbw2HZxi3zgBJefxYfccgm8eSQw=}
+    engines: {node: '>=0.10.0'}
+
+  /source-map/0.6.1:
+    resolution: {integrity: sha1-dHIq8y6WFOnCh6jQu95IteLxomM=, tarball: source-map/source-map-0.6.1.tgz}
+    engines: {node: '>=0.10.0'}
+
+  /sourcemap-codec/1.4.8:
+    resolution: {integrity: sha1-6oBL2UhXQC5pktBaOO8a41qatMQ=, tarball: sourcemap-codec/sourcemap-codec-1.4.8.tgz}
+
+  /supports-preserve-symlinks-flag/1.0.0:
+    resolution: {integrity: sha1-btpL00SjyUrqN21MwxvHcxEDngk=}
+    engines: {node: '>= 0.4'}
+    dev: true
+
+  /tinypool/0.1.3:
+    resolution: {integrity: sha1-tVcLNkoXdf1APeXnZgsyUwj+4ms=}
+    engines: {node: '>=14.0.0'}
+    dev: true
+
+  /tinyspy/0.3.2:
+    resolution: {integrity: sha1-L5XLFMOAicppA4XzOXgc01+q5WY=}
+    engines: {node: '>=14.0.0'}
+    dev: true
+
+  /type-detect/4.0.8:
+    resolution: {integrity: sha1-dkb7XxiHHPu3dJ5pvTmmOI63RQw=, tarball: type-detect/type-detect-4.0.8.tgz}
+    engines: {node: '>=4'}
+    dev: true
+
+  /typescript/4.6.4:
+    resolution: {integrity: sha1-yqeLvDpZ5qXFENNXA/agmHfORek=}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  /url/0.11.0:
+    resolution: {integrity: sha1-ODjpfPxgUh63PFJajlW/3Z4uKPE=, tarball: https://artifacts.iflytek.com:443/artifactory/api/npm/npm-repo/url/url-0.11.0.tgz}
+    dependencies:
+      punycode: 1.3.2
+      querystring: 0.2.0
+    dev: false
+
+  /vite/2.9.9:
+    resolution: {integrity: sha1-i1WJh9teYP7ewvSwA7cxZMsIHF4=}
+    engines: {node: '>=12.2.0'}
+    hasBin: true
+    peerDependencies:
+      less: '*'
+      sass: '*'
+      stylus: '*'
+    peerDependenciesMeta:
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+    dependencies:
+      esbuild: 0.14.39
+      postcss: 8.4.14
+      resolve: 1.22.0
+      rollup: 2.74.1
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /vitest/0.12.7:
+    resolution: {integrity: sha1-WjJcCax/YvNHW8tqcGoqqeJWBHU=}
+    engines: {node: '>=v14.16.0'}
+    hasBin: true
+    peerDependencies:
+      '@vitest/ui': '*'
+      c8: '*'
+      happy-dom: '*'
+      jsdom: '*'
+    peerDependenciesMeta:
+      '@vitest/ui':
+        optional: true
+      c8:
+        optional: true
+      happy-dom:
+        optional: true
+      jsdom:
+        optional: true
+    dependencies:
+      '@types/chai': 4.3.1
+      '@types/chai-subset': 1.3.3
+      chai: 4.3.6
+      debug: 4.3.4
+      local-pkg: 0.4.1
+      tinypool: 0.1.3
+      tinyspy: 0.3.2
+      vite: 2.9.9
+    transitivePeerDependencies:
+      - less
+      - sass
+      - stylus
+      - supports-color
+    dev: true
+
+  /vue-tsc/0.34.15_typescript@4.6.4:
+    resolution: {integrity: sha1-/TTXJXhgR3tQHJ5g+1VJ8nM+kag=}
+    hasBin: true
+    peerDependencies:
+      typescript: '*'
+    dependencies:
+      '@volar/vue-typescript': 0.34.15
+      typescript: 4.6.4
+    dev: true
+
+  /vue/3.2.35:
+    resolution: {integrity: sha1-4KY6iy/MAzSpNtSE1kbjG1ceP4A=}
+    dependencies:
+      '@vue/compiler-dom': 3.2.35
+      '@vue/compiler-sfc': 3.2.35
+      '@vue/runtime-dom': 3.2.35
+      '@vue/server-renderer': 3.2.35_vue@3.2.35
+      '@vue/shared': 3.2.35
+    dev: false
